@@ -13,8 +13,6 @@ export default defineConfig({
       tsconfigPath: './tsconfig.app.json',
       include: ['src'],
       exclude: ['src/App.tsx', 'src/main.tsx', 'src/vite-env.d.ts'],
-      insertTypesEntry: true,
-      rollupTypes: true,
     }),
   ],
   resolve: {
